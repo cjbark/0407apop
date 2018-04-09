@@ -14,10 +14,11 @@ class App extends Component {
       <BrowserRouter>
       <div className="skin-blue">
         <ul className="nav nav-tabs">
+        
           <li  className="active"><Link to="/a"> Home</Link></li>
           <li ><Link  to="/b">Profile</Link></li>
           <li ><Link  to="/c">Messages</Link></li>
-          
+
         </ul>
         <div>
       {HOME}
